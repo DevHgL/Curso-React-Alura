@@ -1,0 +1,94 @@
+#container {
+  background-image: url('bg.jpg');
+  background-size: cover; /* A imagem será dimensionada para cobrir o container */
+  background-repeat: no-repeat; /* A imagem não será repetida */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.form {
+  
+  background-color: #f5f5f5;
+  display: block;
+  padding: 1rem;
+  max-width: 365px;
+  border-radius: 0.5rem;
+  -webkit-box-shadow: 10px 15px 9px 0px rgba(0,0,0,0.75);
+  -moz-box-shadow: 10px 15px 9px 0px rgba(0,0,0,0.75);
+  box-shadow: 10px 15px 9px 0px rgba(0,0,0,0.75);
+}
+
+.form-title {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 600;
+  text-align: center;
+  color: #000;
+}
+
+.input-container {
+  position: center;
+  
+  
+}
+
+.input-container input, .form button {
+  outline: none;
+  border: 1px solid #e5e7eb;
+  margin: 8px 0;
+}
+
+.input-container input {
+  background-color: #fff;
+  padding: 1rem;
+  padding-right: 3rem;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  width: 300px;
+  border-radius: 0.5rem;
+  box-shadow: 0 1px 2px 5 rgba(255, 254, 254, 0.05);
+}
+
+.submit {
+  display: block;
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  background-color: #4F46E5;
+  color: #ffffff;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  font-weight: 500;
+  width: 100%;
+  border-radius: 0.5rem;
+  text-transform: uppercase;
+}
+
+.signup-link {
+  color: #6B7280;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  text-align: center;
+}
+
+.signup-link a {
+  text-decoration: underline;
+}
+
+.link-button {
+  background: none;
+  border: none;
+  color: #4F46E5;
+  font-size: 0.875rem;
+  line-height: 1.25rem;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.link-button:focus {
+  outline: none;
+}
+

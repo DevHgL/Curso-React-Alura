@@ -1,0 +1,141 @@
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./menu.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  font-family: Arial, sans-serif;
+}
+
+.menu-lateral {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 20%;
+  height: 100vh;
+  background-color: #34344e;
+  color: #fff;
+  padding: 0;
+}
+
+.logo {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  color: #fff;
+  text-decoration: none;
+  display: block;
+  padding: 10px 20px;
+}
+
+ul li a:hover {
+  background-color: transparent;
+}
+
+.informações-conteudo{
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80%;
+}
+
+.conteudo {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 80%;
+}
+
+.search-bar-container {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.search-bar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: transparent !important;
+  border-radius: 8px;
+}
+
+.search-input {
+  border: none;
+  outline: none;
+  padding: 8px;
+  font-size: 16px;
+  border-radius: 8px;
+  width: 90%;
+}
+
+.search-icon {
+  color: #000000;
+  font-size: 20px;
+  margin-left: 8px;
+  cursor: pointer;
+  border: 1px solid #ccc; /* Add a gray border with 1px width */
+  padding: 5px; /* Optional: Add some padding around the icon */
+  border-radius: 50%; /* Optional: Add border-radius to make the icon circular */
+}
+
+
+.user-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: transparent !important;
+}
+
+.user-item {
+  display: flex;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.user-avatar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 100%;
+  margin: 50px;
+}
+
+.user-details h3 {
+  margin-bottom: 1px;
+}
+
+footer {
+  background-color: #27272700;
+  color: #000000;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
